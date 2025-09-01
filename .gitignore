@@ -1,0 +1,25 @@
+# all the random stuff
+.probe/
+.vscode/
+logs/
+mods/*
+coremods/
+crash-reports/
+data/
+defaultconfigs/
+local/
+modernfix/
+resourcepacks/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+texturepacks/
+xaero/
+XaeroWaypoints*/
+icon.png
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
+!kubejs/*
