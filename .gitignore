@@ -17,9 +17,13 @@ shaderpacks/
 texturepacks/
 xaero/
 XaeroWaypoints*/
+emi.json
 icon.png
 options.txt
 rhino.local.properties
 usercache.json
 usernamecache.json
 !kubejs/*
+
+#config files
+config/oculus.properties
