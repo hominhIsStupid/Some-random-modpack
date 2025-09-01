@@ -3,7 +3,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# This setting doesn't do anything. Change the difficulty using the in-game menu
 	# ⌄ 
-	Difficulty = "normal"
+	Difficulty = "custom"
 	#─────────────────────────────────────────────────────────────────────────
 	# The current version of Cold Sweat. This is used by the auto-updater
 	# ⌄ 
@@ -18,12 +18,12 @@
 	# Defines the minimum habitable temperature
 	# ⌄ 
 	#Range: -Infinity ~ Infinity
-	"Minimum Habitable Temperature" = 0.4
+	"Minimum Habitable Temperature" = 0.0
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the maximum habitable temperature
 	# ⌄ 
 	#Range: -Infinity ~ Infinity
-	"Maximum Habitable Temperature" = 1.511111111111111
+	"Maximum Habitable Temperature" = 1.6
 	#─────────────────────────────────────────────────────────────────────────
 	# Rate at which the player's body temperature changes (default: 1.0 (100%))
 	# ⌄ 
@@ -33,7 +33,7 @@
 	# Damage dealt to the player when they are too hot or too cold
 	# ⌄ 
 	#Range: 0.0 ~ Infinity
-	"Temperature Damage" = 2.0
+	"Temperature Damage" = 1.0
 	#─────────────────────────────────────────────────────────────────────────
 	# Nullifies temperature damage and effects when the difficulty is set to peaceful
 	# ⌄ 
@@ -95,7 +95,7 @@
 	# The amount of time (in ticks) after the player spawns during which they are immune to temperature effects
 	# ⌄ 
 	#Range: > 0
-	"Grace Period Length" = 6000
+	"Grace Period Length" = 18000
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the grace period
 	# ⌄ 
