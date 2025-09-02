@@ -1,6 +1,11 @@
 // priority: 999
 
 global.blacklist = [
+    'minecraft:wooden_sword',
+    'minecraft:wooden_shovel',
+    'minecraft:wooden_pickaxe',
+    'minecraft:wooden_axe',
+    'minecraft:wooden_hoe',
     'minecraft:stone_sword',
     'minecraft:stone_shovel',
     'minecraft:stone_pickaxe',
