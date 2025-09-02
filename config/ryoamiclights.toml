@@ -112,13 +112,13 @@ mode = "fast"
 				blast_furnace_dummy = true
 				electriclantern = true
 				arc_furnace_dummy = true
-				fluidpipe = true
 				coke_oven_master = true
+				fluidpipe = true
 				lv_conn = true
 				coke_oven_dummy = true
 				dynamo = true
-				lv_relay = true
 				posttransformer = true
+				lv_relay = true
 				furnaceheater = true
 				fluidsorter = true
 				feedthrough = true
@@ -219,8 +219,8 @@ mode = "fast"
 				iron_furnace = true
 				obsidian_furnace = true
 				netherite_furnace = true
-				copper_furnace = true
 				heater = true
+				copper_furnace = true
 				emerald_furnace = true
 				million_furnace = true
 				allthemodium_furnace = true
@@ -246,10 +246,10 @@ mode = "fast"
 				wind_generator = true
 				fission_reactor_logic_adapter = true
 				turbine_rotor = true
-				gas_burning_generator = true
 				turbine_casing = true
-				fission_reactor_casing = true
+				gas_burning_generator = true
 				solar_generator = true
+				fission_reactor_casing = true
 				heat_generator = true
 				turbine_valve = true
 				bio_generator = true
@@ -382,10 +382,10 @@ mode = "fast"
 				ender_chest = true
 
 			[light_sources.settings.block_entities.mekanism]
-				personal_barrel = true
 				qio_dashboard = true
-				basic_mechanical_pipe = true
+				personal_barrel = true
 				advanced_pressurized_tube = true
+				basic_mechanical_pipe = true
 				oredictionificator = true
 				chemical_injection_chamber = true
 				advanced_infusing_factory = true
@@ -397,8 +397,8 @@ mode = "fast"
 				ultimate_energy_cube = true
 				basic_crushing_factory = true
 				ultimate_sawing_factory = true
-				antiprotonic_nucleosynthesizer = true
 				creative_energy_cube = true
+				antiprotonic_nucleosynthesizer = true
 				basic_universal_cable = true
 				ultimate_induction_provider = true
 				ultimate_compressing_factory = true
@@ -590,24 +590,11 @@ mode = "fast"
 
 		[light_sources.settings.entities]
 
-			[light_sources.settings.entities.tconstruct]
-				indestructible_item = true
-				flint_shuriken = true
-				fluid_spit = true
-				ender_slime = true
-				glow_ball = true
-				crystalshot = true
-				terracube = true
-				fancy_item_frame = true
-				sky_slime = true
-				efln_ball = true
-				quartz_shuriken = true
-
 			[light_sources.settings.entities.minecraft]
 				zombie_horse = true
 				axolotl = true
-				egg = true
 				zoglin = true
+				egg = true
 				spawner_minecart = true
 				allay = true
 				llama = true
@@ -729,6 +716,19 @@ mode = "fast"
 				interaction = true
 				wither = true
 
+			[light_sources.settings.entities.tconstruct]
+				indestructible_item = true
+				flint_shuriken = true
+				fluid_spit = true
+				ender_slime = true
+				glow_ball = true
+				crystalshot = true
+				terracube = true
+				fancy_item_frame = true
+				sky_slime = true
+				efln_ball = true
+				quartz_shuriken = true
+
 			[light_sources.settings.entities.zombieawareness]
 				scent = true
 
@@ -763,11 +763,11 @@ mode = "fast"
 				baby_skeleton = true
 				baby_creeper = true
 
-			[light_sources.settings.entities.snowrealmagic]
-				snow = true
-
 			[light_sources.settings.entities.ae2]
 				tiny_tnt_primed = true
+
+			[light_sources.settings.entities.snowrealmagic]
+				snow = true
 
 			[light_sources.settings.entities.cold_sweat]
 				chameleon = true
