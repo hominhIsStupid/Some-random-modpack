@@ -27,3 +27,4 @@ usernamecache.json
 
 #config files
 config/oculus.properties
+config/fabric/
