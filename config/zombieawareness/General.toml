@@ -10,9 +10,9 @@
 	#Range: > -2147483648
 	sightRange = 16
 	#Always target closest player [performance sensitive]
-	omniscient = false
+	omniscient = true
 	#skips line of sight check on targetting [performance sensitive]
-	seeThroughWalls = false
+	seeThroughWalls = true
 	#Effects how far monsters will sense scents from
 	#Range: > -2147483648
 	scentStrength = 60
