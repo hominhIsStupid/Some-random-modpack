@@ -1,10 +1,6 @@
 // priority: 999
 
-global.marterial = [
-   "copper",
-   "iron",
-   "gold",
-]
+global.marterial = ["copper", "iron", "gold"];
 
 global.blacklist = [
    "minecraft:wooden_sword",
@@ -42,6 +38,11 @@ global.blacklist = [
    "immersiveengineering:pickaxe_steel",
    "immersiveengineering:axe_steel",
    "immersiveengineering:hoe_steel",
+   "ad_astra:iron_plate",
+   "ad_astra:steel_plate",
+   "tconstruct:steel_ingot",
+   "mekanism:ingot_steel",
+   "ad_astra:steel_ingot",
 ];
 
 console.info("Loaded init");

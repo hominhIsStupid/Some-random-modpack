@@ -65,16 +65,6 @@ ServerEvents.recipes((e) => {
 // crushing
 hammer_crushing({ tag: "forge:ingots/iron" }, { item: "mekanism:dust_iron" });
 
-// plating
-hammer_shaped(
-   {
-      h: { tag: "immersiveengineering:tools/hammers" },
-      m: { item: "minecraft:iron_ingot" },
-   },
-   [" h ", " m ", " m "],
-   { item: "immersiveengineering:plate_iron" }
-);
-
 // other
 hammer_shaped(
    {

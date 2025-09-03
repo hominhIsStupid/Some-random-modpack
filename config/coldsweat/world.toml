@@ -191,7 +191,7 @@
 		# Allows the hearth to automatically turn on/off based on nearby players' temperature
 		# If false, it turns on/off by redstone signal instead
 		# ⌄ 
-		"Automatic Hearth" = false
+		"Automatic Hearth" = true
 		#─────────────────────────────────────────────────────────────────────────
 		# The distance the hearth's air will travel from a source, like the hearth itself or the end of a pipe
 		# ⌄ 
@@ -229,7 +229,7 @@
 		# Allows the boiler to automatically turn on/off based on nearby players' temperature
 		# If false, it turns on/off by redstone signal instead
 		# ⌄ 
-		"Automatic Boiler" = false
+		"Automatic Boiler" = true
 		#─────────────────────────────────────────────────────────────────────────
 		# The distance the boiler's air will travel from a source, like the boiler itself or the end of a pipe
 		# ⌄ 
@@ -267,7 +267,7 @@
 		# Allows the icebox to automatically turn on/off based on nearby players' temperature
 		# If false, it turns on/off by redstone signal instead
 		# ⌄ 
-		"Automatic Icebox" = false
+		"Automatic Icebox" = true
 		#─────────────────────────────────────────────────────────────────────────
 		# The distance the icebox's air will travel from a source, like the icebox itself or the end of a pipe
 		# ⌄ 
