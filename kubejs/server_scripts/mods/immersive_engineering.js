@@ -1,4 +1,4 @@
-// priority: 5
+// all immersive engineering stuff (recipes) goes here
 
 const hammer_crushing = (input, output) => {
    ServerEvents.recipes((e) => {
