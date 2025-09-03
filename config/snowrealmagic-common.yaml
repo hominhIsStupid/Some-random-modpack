@@ -5,8 +5,8 @@ snowMakingIce: true
 snowAlwaysReplaceable: true
 thinnerBoundingBox: true
 snowNeverMelt: false
-snowSpawnMaxLightLevel: 9
-snowPersistMaxLightLevel: 11
+snowSpawnMaxLightLevel: 12
+snowPersistMaxLightLevel: 14
 snowReduceFallDamage: true
 sustainGrassIfLayerMoreThanOne: true
 sneakSnowball: true

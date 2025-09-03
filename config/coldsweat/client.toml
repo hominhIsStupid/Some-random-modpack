@@ -24,7 +24,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The scale of the water droplets on-screen, in scaled "pixels"
 	# ⌄ 
-	"Water Droplet Scale" = [40, 48]
+	"Water Droplet Scale" = [16, 32]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the primary (right-click) action for the waterskin
 	# Can be one of "drink", "pour", or "none"
@@ -48,7 +48,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The position of the body temperature icon relative to default
 	# ⌄ 
-	"Body Temperature Icon Offset" = [0, 0]
+	"Body Temperature Icon Offset" = [1, 0]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the body temperature icon above the hotbar
 	# ⌄ 
