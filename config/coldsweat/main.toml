@@ -11,14 +11,14 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# Allows Cold Sweat's configs to be automatically updated with new additions & formatting changes
 	# ⌄ 
-	"Auto Update" = true
+	"Auto Update" = false
 
 [Difficulty]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the minimum habitable temperature
 	# ⌄ 
 	#Range: -Infinity ~ Infinity
-	"Minimum Habitable Temperature" = 0.0
+	"Minimum Habitable Temperature" = -0.1
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the maximum habitable temperature
 	# ⌄ 
@@ -28,12 +28,12 @@
 	# Rate at which the player's body temperature changes (default: 1.0 (100%))
 	# ⌄ 
 	#Range: 0.0 ~ Infinity
-	"Rate Multiplier" = 1.0
+	"Rate Multiplier" = 0.9
 	#─────────────────────────────────────────────────────────────────────────
 	# Damage dealt to the player when they are too hot or too cold
 	# ⌄ 
 	#Range: 0.0 ~ Infinity
-	"Temperature Damage" = 1.0
+	"Temperature Damage" = 0.5
 	#─────────────────────────────────────────────────────────────────────────
 	# Nullifies temperature damage and effects when the difficulty is set to peaceful
 	# ⌄ 
@@ -55,25 +55,25 @@
 		# Represented as a percentage in decimal form
 		# ⌄ 
 		#Range: 0.0 ~ 1.0
-		"Max Frozen Health Percentage" = 0.5
+		"Max Frozen Health Percentage" = 0.3
 		#─────────────────────────────────────────────────────────────────────────
 		# The player's attack knockback will be reduced by this amount when they are too cold
 		# Represented as a percentage in decimal form
 		# ⌄ 
 		#Range: 0.0 ~ 1.0
-		"Freezing Knockback Reduction" = 0.5
+		"Freezing Knockback Reduction" = 0.3
 		#─────────────────────────────────────────────────────────────────────────
 		# The player's movement speed will be reduced by this amount when they are too cold
 		# Represented as a percentage in decimal form
 		# ⌄ 
 		#Range: 0.0 ~ 1.0
-		"Freezing Sluggishness" = 0.5
+		"Freezing Sluggishness" = 0.3
 		#─────────────────────────────────────────────────────────────────────────
 		# The player's mining speed will be reduced by this amount when they are too cold
 		# Represented as a percentage in decimal form
 		# ⌄ 
 		#Range: 0.0 ~ 1.0
-		"Freezing Mining Impairment" = 0.5
+		"Freezing Mining Impairment" = 0.3
 
 	["Temperature Effects".Acclimation]
 		#─────────────────────────────────────────────────────────────────────────
@@ -95,7 +95,7 @@
 	# The amount of time (in ticks) after the player spawns during which they are immune to temperature effects
 	# ⌄ 
 	#Range: > 0
-	"Grace Period Length" = 18000
+	"Grace Period Length" = 6000
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the grace period
 	# ⌄ 

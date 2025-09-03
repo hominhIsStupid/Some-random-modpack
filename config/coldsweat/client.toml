@@ -48,7 +48,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The position of the body temperature icon relative to default
 	# ⌄ 
-	"Body Temperature Icon Offset" = [1, 0]
+	"Body Temperature Icon Offset" = [0, 0]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the body temperature icon above the hotbar
 	# ⌄ 
@@ -68,7 +68,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The position of the world temperature gauge relative to default
 	# ⌄ 
-	"World Temperature UI Offset" = [0, 0]
+	"World Temperature UI Offset" = [2, -28]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the world temperature gauge next to the hotbar
 	# ⌄ 

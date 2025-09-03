@@ -18,7 +18,10 @@
 	# • temperature: The temperature offset to apply to the dimension
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# ⌄ 
-	"Dimension Temperature Offsets" = [["minecraft:the_nether", 32, "f"], ["minecraft:the_end", -5, "f"]]
+	"Dimension Temperature Offsets" = [
+	    ["minecraft:the_nether", 32, "c"],
+	    ["minecraft:the_end", -10, "c"]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a dimension, overriding biome and elevation temperature
 	# ├── Format: [["dimension_id", temperature, *units], ["dimension_id", temperature, *units]... etc]
@@ -49,7 +52,34 @@
 	# • highTemp: The temperature of the biome at noon
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# ⌄ 
-	"Biome Temperatures" = [["minecraft:soul_sand_valley", 53, 53, "F"], ["minecraft:old_growth_birch_forest", 58, 72, "F"], ["minecraft:river", 60, 70, "F"], ["minecraft:swamp", 72, 84, "F"], ["minecraft:savanna", 70, 95, "F"], ["minecraft:savanna_plateau", 76, 98, "F"], ["minecraft:windswept_savanna", 67, 90, "F"], ["minecraft:taiga", 44, 62, "F"], ["minecraft:snowy_taiga", 19, 48, "F"], ["minecraft:old_growth_pine_taiga", 48, 62, "F"], ["minecraft:old_growth_spruce_taiga", 48, 62, "F"], ["minecraft:desert", 48, 115, "F"], ["minecraft:stony_shore", 50, 64, "F"], ["minecraft:snowy_beach", 38, 52, "F"], ["minecraft:snowy_slopes", 24, 38, "F"], ["minecraft:windswept_forest", 48, 66, "F"], ["minecraft:frozen_peaks", 15, 33, "F"], ["minecraft:warm_ocean", 67, 76, "F"], ["minecraft:deep_frozen_ocean", 56, 65, "F"], ["minecraft:jungle", 76, 87, "F"], ["minecraft:bamboo_jungle", 76, 87, "F"], ["minecraft:badlands", 84, 120, "F"], ["minecraft:wooded_badlands", 80, 108, "F"], ["minecraft:eroded_badlands", 88, 120, "F"], ["minecraft:deep_dark", 63, 63, "F"], ["minecraft:dripstone_caves", "disable"]]
+	"Biome Temperatures" = [
+	    ["minecraft:soul_sand_valley", 53, 53, "c"],
+	    ["minecraft:old_growth_birch_forest", 58, 72, "c"],
+	    ["minecraft:river", 60, 70, "c"],
+	    ["minecraft:swamp", 72, 84, "c"],
+	    ["minecraft:savanna", 70, 95, "c"],
+	    ["minecraft:savanna_plateau", 76, 98, "c"],
+	    ["minecraft:windswept_savanna", 67, 90, "c"],
+	    ["minecraft:taiga", 44, 62, "c"],
+	    ["minecraft:snowy_taiga", 19, 48, "c"],
+	    ["minecraft:old_growth_pine_taiga", 48, 62, "c"],
+	    ["minecraft:old_growth_spruce_taiga", 48, 62, "c"],
+	    ["minecraft:desert", 48, 115, "c"],
+	    ["minecraft:stony_shore", 50, 64, "c"],
+	    ["minecraft:snowy_beach", 38, 52, "c"],
+	    ["minecraft:snowy_slopes", 24, 38, "c"],
+	    ["minecraft:windswept_forest", 48, 66, "c"],
+	    ["minecraft:frozen_peaks", 15, 33, "c"],
+	    ["minecraft:warm_ocean", 67, 76, "c"],
+	    ["minecraft:deep_frozen_ocean", 56, 65, "c"],
+	    ["minecraft:jungle", 76, 87, "c"],
+	    ["minecraft:bamboo_jungle", 76, 87, "c"],
+	    ["minecraft:badlands", 84, 120, "c"],
+	    ["minecraft:wooded_badlands", 80, 108, "c"],
+	    ["minecraft:eroded_badlands", 88, 120, "c"],
+	    ["minecraft:deep_dark", 63, 63, "c"],
+	    ["minecraft:dripstone_caves", "disable"]
+	]
 
 [Blocks]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -66,7 +96,21 @@
 	# • *nbt: The NBT data that the block must have for the temperature to be applied.
 	# • *temperatureLimit: The maximum world temperature at which this block temp will have any effect.
 	#   (Represents the minimum temp if the block temp is negative)
-	"Block Temperatures" = [["minecraft:torch", 10, 1, "c", 0.6, "", "", 15], ["cold_sweat:boiler", 50, 7, "c", 0.88, "lit=true", "", 55], ["minecraft:lava_cauldron", 80, 7, "c", 1.5], ["minecraft:lava", 90, 7, "c", 6, "", "", 95, true], ["minecraft:fire", 40, 7, "c", 0.9, "", "", 45], ["minecraft:campfire", 40, 7, "c", 0.9, "lit=true", " ", 45], ["minecraft:magma_block", 20, 3, "c", 25], ["tconstruct:seared_heater", 80, 3, "c", 0.9, "active=true", "", 85], ["tconstruct:seared_melter", 80, 3, "c", 0.9, "active=true", "", 85], ["cold_sweat:icebox", -20, 7, "c", 0.88, "frosted=true", "", -25], ["minecraft:ice", -5, 4, "c", 0.3, "", "", -10], ["minecraft:packed_ice", -10, 4, "c", 1.0, "", "", -15], ["minecraft:blue_ice", -15, 4, "c", 1.4, "", "", -20], ["#minecraft:ice", -5, 4, "c", 0.6, "", "", -10]]
+	"Block Temperatures" = [
+	    ["minecraft:torch", 10, 1, "c", 0.6, "", "", 15],
+	    ["cold_sweat:boiler", 80, 7, "c", 0.88, "lit=true", "", 85],
+	    ["minecraft:lava", 100, 7, "c", 6, "", "", 105, true],
+	    ["minecraft:fire", 50, 3, "c", 0.9, "", "", 55],
+	    ["minecraft:campfire", 40, 3, "c", 0.9, "lit=true", " ", 45],
+	    ["minecraft:furnace", 50, 3, "c", 0.9, "lit=true", "", 55],
+	    ["tconstruct:seared_heater", 80, 3, "c", 0.9, "active=true", "", 85],
+	    ["tconstruct:seared_melter", 80, 3, "c", 0.9, "active=true", "", 85],
+	    ["cold_sweat:icebox", -20, 7, "c", 0.88, "frosted=true", "", -25],
+	    ["minecraft:ice", -5, 4, "c", 0.3, "", "", -10],
+	    ["minecraft:packed_ice", -10, 4, "c", 1.0, "", "", -15],
+	    ["minecraft:blue_ice", -15, 4, "c", 1.4, "", "", -20],
+	    ["#minecraft:ice", -5, 4, "c", 0.6, "", "", -10]
+	]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum range of blocks' area of effect
 	# - Note: This will not change anything unless blocks are configured to utilize the expanded range
@@ -108,7 +152,7 @@
 	# A temperature offset applied when the sky is overcast
 	# └── Format: [offset, *units]
 	# ⌄ 
-	"Overcast Temperature Offset" = [-0.35, "mc"]
+	"Overcast Temperature Offset" = [-10, "c"]
 	#─────────────────────────────────────────────────────────────────────────
 	# List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
 	# Use this list if the player is not getting the temperature effect from sleeping on particular blocks
@@ -266,8 +310,8 @@
 		# • seasonStart/Mid/End: The temperature offset at the start, middle, and end of the season
 		# • *units: The unit of temperature (C, F, or MC)
 		# ⌄ 
-		Summer = [0.4, 0.6, 0.4, "C"]
-		Autumn = [0.2, 0, -0.2, "C"]
-		Winter = [-0.4, -0.6, -0.4, "C"]
-		Spring = [-0.2, 0, 0.2, "C"]
+		Summer = [4, 6, 4, "C"]
+		Autumn = [2, 0, 2, "C"]
+		Winter = [-4, -6, -4, "C"]
+		Spring = [-2, 0, 2, "C"]
 
