@@ -1,0 +1,205 @@
+{
+	autofocus_id: "59557990E26DBD3F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rough_start"
+	group: ""
+	id: "6A4519A6076EF04C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59557990E26DBD3F"
+			tasks: [{
+				id: "692342D1DBDDD29F"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59557990E26DBD3F"]
+			id: "7DA58C62FDDD1FD0"
+			tasks: [{
+				id: "770BED11F6494035"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree Punching again"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DA58C62FDDD1FD0"]
+			description: ["Use these to craft your first tools"]
+			id: "502497174EEF12F3"
+			tasks: [
+				{
+					id: "499EC4E3048AC974"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+				{
+					id: "7CAD0116C1115DB4"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "3FE40663B0FED570"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+			]
+			title: "Important tables"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["502497174EEF12F3"]
+			description: ["This is needed for stone age"]
+			id: "0588138E562A7AB8"
+			tasks: [{
+				id: "00D4F0463398095B"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:cultivated"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 60.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0588138E562A7AB8"]
+			dependency_requirement: "one_completed"
+			description: ["Use stones to craft yourself a set of stone tools"]
+			id: "7F7BA4AEB5F936EA"
+			tasks: [{
+				id: "38C5455F290ABE99"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:workstation_rock"
+					}
+				}
+				type: "item"
+			}]
+			title: "Better material"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45A7B0667BAD4769"]
+			description: ["This is essential"]
+			id: "4BA7BEBC1DA7EF44"
+			rewards: [{
+				id: "2FFAE26018B34DBA"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68071AA722F3C5E8"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F7BA4AEB5F936EA"]
+			description: ["Use the smelter to make iron"]
+			id: "45A7B0667BAD4769"
+			rewards: [{
+				id: "72BA96FFB9C8643D"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B0ACF6839D5CEB9"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "17D3787EF8E274EF"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "23BD76F4E040F716"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "56B6B2900BAB5A3C"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "4E39A436A4BA0860"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:casts/single_use"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "360520EC8E04A6C9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Smeltery"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Rough Start"
+}

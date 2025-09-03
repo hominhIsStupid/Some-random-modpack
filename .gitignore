@@ -1,6 +1,7 @@
 # all the random stuff
 .probe/
 .vscode/
+backups/
 logs/
 mods/*
 coremods/
